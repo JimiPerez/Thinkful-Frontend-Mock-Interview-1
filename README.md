@@ -6,16 +6,14 @@
 We have a site that displays user posts from our jsonplaceholder website.
 For this challenge, we're going to display comments from user posts using the JSONPlaceholder API. You should be familiar with this API from past exercises.
 
-
 ## Success Criteria
 
-Functionality:
+- Functionality:
 
-- Posts load from https://jsonplaceholder.typicode.com/posts?userId=1 and are displayed on the page. The page displays posts for just one user as specified by the userId.
-- The page displays the title and body properties from the post
-- When a post's body is clicked, the post's comments are fetched from https://jsonplaceholder.typicode.com/posts/${postId}/comments.
-- The page displays the body property of all the comments for a post on the page after the post is clicked
-
+  - Posts load from `https://jsonplaceholder.typicode.com/posts?userId=1` and are displayed on the page. The page displays posts for just one user as specified by the userId.
+  - The page displays the `title` and `body` properties from the post
+  - When a post's body is clicked, the post's comments are fetched from `https://jsonplaceholder.typicode.com/posts/${postId}/comments`.
+  - The page displays the `body` property of all the comments for a post on the page after the post is clicked
 
 ## Specific Instructions and helpful tips
 
@@ -26,7 +24,7 @@ Functionality:
   "id": 1,
   "title": "Post 1",
   "body": "Post 1 body"
-},
+}
 ```
 - The post should display the title and body
 - Each post has 5 comments
